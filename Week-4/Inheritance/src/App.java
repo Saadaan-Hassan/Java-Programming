@@ -6,6 +6,10 @@ class A {
         a++;
     }
 
+    {
+        a++;
+    }
+
     public int getA() {
         return a++;
     }
@@ -52,6 +56,6 @@ class App {
         A obj = new C(10);
         
         System.out.println("The value in a of C: " + obj.getA());
-        A obj2 = new C();
+        // A obj2 = new C();
     }
 }

@@ -36,7 +36,7 @@ public class StoreInventory {
     }
 
     //Getters
-    public int getisbn() {
+    public int getIsbn() {
         return isbn;
     }
 
