@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Mobiles> mobiles = new ArrayList<Mobiles>();
+        
         mobiles.add(new Mobiles("Galaxy Z Fold 4", "Samsung", 16, 8, "Android 11"));
         mobiles.add(new Mobiles("Hot 11 Play", "OPPO", 8, 5, "Android 10"));
         mobiles.add(new Mobiles("Infinix 9", "Infinix", 12, 6, "Android 12"));

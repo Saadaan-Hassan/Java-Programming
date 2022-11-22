@@ -1,7 +1,7 @@
 import java.util.Comparator;
 
 public class Mobiles implements Comparable<Mobiles>, Comparator<Mobiles> {
-    private String name;
+    String name;
     private String company;
     private int ram;
     private int rom;
