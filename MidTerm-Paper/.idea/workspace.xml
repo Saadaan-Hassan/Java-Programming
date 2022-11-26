@@ -2,90 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf3d17d-f678-49b1-85ad-ff8857323cc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/MidTerm-Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/Practice Program 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/src/File_IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Program 2/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/MyFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/src/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/src/Global.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/src/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/src/SortByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/Practice programs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/src/Cirlce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice programs/src/TwoDShapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Inheritance_Practice/Parallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Inheritance_Practice/Quadrilateral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Inheritance_Practice/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Inheritance_Practice/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Inheritance_Practice/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/Inheritance_Practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/src/diagram.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/Project-13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/out/production/Project-13/CompareByCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/out/production/Project-13/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/out/production/Project-13/Mobiles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/src/CompareByCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week-9/Project-13/src/Mobiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/Project-13.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/out/production/Project-13/CompareByCompany.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/out/production/Project-13/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/out/production/Project-13/Mobiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/src/CompareByCompany.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week-19/Project-13/src/Mobiles.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTerm-Paper.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm-Paper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Salesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MidTerm-Practice/Practice Project 3/Practice Project 3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Htg2gGwgv2g9TclS1e8dPJTHtp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="MidTerm-Paper" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,8 +74,17 @@
       <option name="presentableId" value="Default" />
       <updated>1669109590649</updated>
       <workItem from="1669109592363" duration="1000" />
+      <workItem from="1669109916646" duration="1075000" />
+      <workItem from="1669111230784" duration="1256000" />
+      <workItem from="1669112606731" duration="18000" />
+      <workItem from="1669112642370" duration="1438000" />
+      <workItem from="1669123330019" duration="356000" />
+      <workItem from="1669259860095" duration="43000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -108,5 +96,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
