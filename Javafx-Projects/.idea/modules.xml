@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" filepath="$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Javafx-Projects.iml" filepath="$PROJECT_DIR$/.idea/Javafx-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadFromFileGui/ReadFromFileGui.iml" filepath="$PROJECT_DIR$/ReadFromFileGui/ReadFromFileGui.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week-11/Week-11.iml" filepath="$PROJECT_DIR$/Week-11/Week-11.iml" />
     </modules>
   </component>
