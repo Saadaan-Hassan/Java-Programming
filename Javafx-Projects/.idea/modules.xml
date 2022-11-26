@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" filepath="$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Javafx-Projects.iml" filepath="$PROJECT_DIR$/.idea/Javafx-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-11/Week-11.iml" filepath="$PROJECT_DIR$/Week-11/Week-11.iml" />
+    </modules>
+  </component>
+</project>
