@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fcb13b3-9512-4b90-ac71-359781534d3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week-11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/MidTerm-Paper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/src/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/src/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/src/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Paper/src/Salesman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MidTerm-Practice/Practice Project 3/Practice Project 3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MidTerm-Paper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidTerm-Paper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MidTerm-Paper/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidTerm-Paper/src/Demo.java" afterDir="false" />
-    </list>
+    <list default="true" id="4fcb13b3-9512-4b90-ac71-359781534d3b" name="Changes" comment="Lab Mid-Term Paper" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,8 +66,23 @@
       <updated>1669388919390</updated>
       <workItem from="1669388922594" duration="1207000" />
       <workItem from="1669393508255" duration="9635000" />
-      <workItem from="1669435317726" duration="1155000" />
+      <workItem from="1669435317726" duration="1309000" />
     </task>
+    <task id="LOCAL-00001" summary="First javafx program">
+      <created>1669436519530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669436519531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lab Mid-Term Paper">
+      <created>1669436573780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669436573780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First javafx program" />
+    <MESSAGE value="Lab Mid-Term Paper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab Mid-Term Paper" />
   </component>
 </project>
