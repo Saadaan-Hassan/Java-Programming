@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BMI_Calculator/BMI_Calculator.iml" filepath="$PROJECT_DIR$/BMI_Calculator/BMI_Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" filepath="$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Javafx-Projects.iml" filepath="$PROJECT_DIR$/.idea/Javafx-Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadFromFileGui/ReadFromFileGui.iml" filepath="$PROJECT_DIR$/ReadFromFileGui/ReadFromFileGui.iml" />
