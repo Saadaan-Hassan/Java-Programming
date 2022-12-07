@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BMI_Calculator/BMI_Calculator.iml" filepath="$PROJECT_DIR$/BMI_Calculator/BMI_Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" filepath="$PROJECT_DIR$/CelsiusToFahrenheit/CelsiusToFahrenheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFx_Boxes/JavaFx_Boxes.iml" filepath="$PROJECT_DIR$/JavaFx_Boxes/JavaFx_Boxes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Javafx-Projects.iml" filepath="$PROJECT_DIR$/.idea/Javafx-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomCircles/RandomCircles.iml" filepath="$PROJECT_DIR$/RandomCircles/RandomCircles.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadFromFileGui/ReadFromFileGui.iml" filepath="$PROJECT_DIR$/ReadFromFileGui/ReadFromFileGui.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week-11/Week-11.iml" filepath="$PROJECT_DIR$/Week-11/Week-11.iml" />
     </modules>

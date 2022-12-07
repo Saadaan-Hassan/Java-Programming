@@ -1,7 +1,4 @@
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -18,9 +15,9 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch();
     }
-
+    
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
         GridPane grid = new GridPane();
         Scene scene = new Scene(grid, 400,250);
 
@@ -51,26 +48,19 @@ public class Main extends Application {
         btnContainer.setAlignment(Pos.CENTER);
         grid.add(btnContainer, 0,3, 6,1);
 
-        btn.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                double temp = Double.parseDouble(celsiusInput.getText());
-                double result = (temp * 1.8) + 32;
+        btn.setOnAction(actionEvent -> {
+            double temp = Double.parseDouble(celsiusInput.getText());
+            double result = (temp * 1.8) + 32;
 
-                String output = Double.toString(result);
-                fahrenheitOutput.setText(output);
+            String output = Double.toString(result);
+            fahrenheitOutput.setText(output);
 
-            }
         });
 
         Button exit = new Button("Exit");
         grid.add(exit, 3,7);
 
-        exit.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                stage.hide();            }
-        });
+        exit.setOnAction(actionEvent -> stage.hide());
 
 
         stage.setTitle("Celsius To Fahrenheit");
