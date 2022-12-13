@@ -81,7 +81,7 @@ public class Driver extends Application {
 
         stage.setScene(scene);
         stage.setTitle("No. of Odd and Even Numbers");
-        stage.setResizable(false);
+//        stage.setResizable(false);
         stage.show();
     }
 }
