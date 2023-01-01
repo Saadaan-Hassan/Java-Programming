@@ -8,7 +8,8 @@ public class MyServer {
     public static void main(String[] args) {
 
         try {
-            ServerSocket ss = new ServerSocket(3333);
+            ServerSocket ss = new ServerSocket(7833);
+            System.out.println("Waiting for Client....");
             Socket s = ss.accept();
 
             DataInputStream dis = new DataInputStream(s.getInputStream());

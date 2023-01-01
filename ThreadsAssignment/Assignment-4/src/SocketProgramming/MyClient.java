@@ -7,8 +7,12 @@ import java.net.Socket;
 public class MyClient {
     public static void main(String[] args) {
         try {
-            String address = "192.168.18.4";
-            Socket s = new Socket(address, 3333);
+//            String address = "192.168.18.4";
+//            String address = "192.168.132.239";
+//            String address = "192.168.132.202";
+            String address = "192.168.2.8";
+
+            Socket s = new Socket(address, 7833);
 
             DataInputStream dis = new DataInputStream(s.getInputStream());
             DataOutputStream dos = new DataOutputStream(s.getOutputStream());
@@ -17,6 +21,8 @@ public class MyClient {
             String str ="";
             String str2 ="";
 
+            dos.writeUTF("Connection Successful.");
+            System.out.println("Connection Successful.");
             while (!str.equals("stop")) {
                 str = br.readLine();
                 dos.writeUTF(str);
