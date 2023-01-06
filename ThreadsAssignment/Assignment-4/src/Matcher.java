@@ -1,28 +1,53 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-public class Matcher extends Thread{
-    public static void matcher(File file){
+public class Matcher implements Runnable{
 
+    private final File [] filesList;
+    private final int numberOfThreads;
+    private final int thread;
+    private final int filesPerThread;
+    private final int remainingFiles;
+
+    private static int count = 1;
+
+    public Matcher(File[] filesList, int numberOfThreads, int thread, int filesPerThread, int remaingFiles) {
+        this.filesList = filesList;
+        this.numberOfThreads = numberOfThreads;
+        this.thread = thread;
+        this.filesPerThread = filesPerThread;
+        this.remainingFiles = remaingFiles;
     }
 
     @Override
-    public void start() {
-        long startTime = System.nanoTime();
+    public void run() {
+        Aggregator.collectMaps(matcher(filesList,numberOfThreads,thread,filesPerThread, remainingFiles));
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
+    private static Map<String,Integer> matcher(File[]  filesList, int numberOfThreads, int thread, int filesPerThread, int remainingFiles){
 
-        //Creating a File object for directory
-        File directoryPath = new File("dataset");
-        //List of all files and directories
-        String[] files = directoryPath.list();
+        List<File> inFiles = new ArrayList<>();
+
+        for (int i = thread * filesPerThread; i < (thread + 1) * filesPerThread; i++)
+            inFiles.add(filesList[i]);
+        if(thread == numberOfThreads - 1 && remainingFiles > 0)
+            for (int j = filesList.length-remainingFiles; j < filesList.length; j++)
+                inFiles.add(filesList[j]);
 
         Map<String, Integer> map = new HashMap<>();
-
-        assert files != null;
-        for (String f : files) {
-            File file = new File("dataset/" + f);
-
+        for (File file: inFiles) {
+            System.out.println(count++ +"- Reading file: " + file + " in " + Thread.currentThread().getName());
 
             try {
                 FileReader fr = new FileReader(file);
@@ -30,10 +55,8 @@ public class Matcher extends Thread{
 
                 String line;
                 String[] words;
-
-
                 while ((line = br.readLine()) != null) {
-                    line = line.replaceAll("[\"_&$#@!~`^*+=<>.,;:'!?()-]", "").replaceAll("\\[", "").replaceAll("\\]", "").replaceAll("/", " ");
+                    line = line.replaceAll("[^a-zA-Z0-9]", " ");
                     words = line.split(" ");
 
                     for (String word :
@@ -41,31 +64,19 @@ public class Matcher extends Thread{
                         if (map.containsKey(word)) {
                             int count = map.get(word);
                             map.put(word, count + 1);
-                        } else {
+                        } else
                             map.put(word, 1);
-                        }
                     }
-
                 }
 
                 br.close();
                 fr.close();
 
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+            } catch (IOException ex) {
+                throw new RuntimeException();
             }
+
         }
-            for (Map.Entry<String, Integer> entry :
-                    map.entrySet()) {
-                System.out.println(entry.getKey() + ":" + entry.getValue());
-            }
-
-
-        System.out.println("--------------------------");
-        System.out.println(map);
-        long endTime = System.nanoTime();
-        long totalTime = endTime - startTime;
-
-        System.out.printf("Total execution time of Thread: %dms\n", totalTime / 1000000);
+        return map;
     }
 }

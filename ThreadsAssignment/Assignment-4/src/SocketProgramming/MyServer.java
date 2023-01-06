@@ -16,18 +16,28 @@ public class MyServer {
             DataOutputStream dos = new DataOutputStream(s.getOutputStream());
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-            String str = "";
+//            BufferedReader bfr = new BufferedReader(new FileReader("dataset/10001.txt"));
+//            System.out.println(bfr.readLine());
+
+//            File sendFile = new File("dataset/10001.txt");
+//            OutputStream fos = new FileOutputStream(sendFile);
+
+//            dos.writeLong(sendFile.length());
+//            dos.flush();
+
+            String str;
             String str2 = "";
 
             while (!str2.equals("stop")) {
                 str = dis.readUTF();
                 System.out.println("Client says: " + str);
+
                 str2 = br.readLine();
                 dos.writeUTF(str2);
                 dos.flush();
             }
-//            br.close();
-//            dos.close();
+            br.close();
+            dos.close();
             dis.close();
             s.close();
             ss.close();

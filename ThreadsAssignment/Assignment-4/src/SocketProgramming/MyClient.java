@@ -1,7 +1,6 @@
 package SocketProgramming;
 
 import java.io.*;
-import java.net.InetAddress;
 import java.net.Socket;
 
 public class MyClient {
@@ -10,7 +9,10 @@ public class MyClient {
 //            String address = "192.168.18.4";
 //            String address = "192.168.132.239";
 //            String address = "192.168.132.202";
-            String address = "192.168.2.8";
+//            String address = "192.168.11.109";
+//            String address = "10.135.88.128";
+//            String address = "192.168.1.104";
+            String address = "localhost";
 
             Socket s = new Socket(address, 7833);
 
@@ -19,7 +21,7 @@ public class MyClient {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
             String str ="";
-            String str2 ="";
+            String str2;
 
             dos.writeUTF("Connection Successful.");
             System.out.println("Connection Successful.");
@@ -32,9 +34,9 @@ public class MyClient {
                 System.out.println("Server says: " + str2);
 
             }
-//            br.close();
+            br.close();
             dos.close();
-//            dis.close();
+            dis.close();
             s.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
